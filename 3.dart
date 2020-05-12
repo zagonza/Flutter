@@ -8,8 +8,6 @@ int rectangle1 (int h,[int w]){
   return h*(w??h);
 }
 
-
-
 int named_rectangle ({int h,int w}) => h*w;
 
 int rectangle2 (int h,[int w]) => h*(w??h);
